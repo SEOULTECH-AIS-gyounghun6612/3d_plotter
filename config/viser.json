@@ -1,0 +1,119 @@
+{
+    "name": "root",
+    "element_type": null,
+    "contents": [
+        {
+            "name": "Data Display",
+            "element_type": "folder",
+            "contents": [
+                {
+                    "name": "Profile",
+                    "element_type": "dropdown",
+                    "contents":{
+                        "options": ["world"] 
+                    }
+                },
+                {
+                    "name": "Display Term",
+                    "element_type": "number",
+                    "contents":{
+                        "initial_value": 25
+                    }
+                },
+                {
+                    "name": "visualize color",
+                    "element_type": "rgb",
+                    "contents":{
+                        "initial_value": [255, 255, 0]                            
+                    }
+                },
+                {
+                    "name": "reload",
+                    "element_type": "button",
+                    "contents":{}
+                }
+            ]
+        },
+        {
+            "name": "Play option",
+                "element_type": "folder",
+                "contents": [
+                    {
+                        "name": "Time Step",
+                        "element_type": "slider",
+                        "contents": {
+                            "min": 0,
+                            "max": 100,
+                            "step": 1,
+                            "initial_value": 0
+                        }
+                    },
+                    {
+                        "name": "FPS",
+                        "element_type": "slider",
+                        "contents": {
+                            "min": 0,
+                            "max": 60,
+                            "step": 1,
+                            "initial_value": 0
+                        }
+                    },
+                    {
+                        "name": "Tracking",
+                        "element_type": "checkbox",
+                        "contents": {
+                            "initial_value": false
+                        }
+                    },
+                    {
+                        "name": "Recording",
+                        "element_type": "checkbox",
+                        "contents": {
+                            "initial_value": false
+                        }
+                    },
+                    {
+                        "name": "Viewpoint",
+                        "element_type": "folder",
+                        "contents": [
+                            {
+                                "name": "Rotation (rx,ry,rz)",
+                                "element_type": "vector3",
+                                "contents": {
+                                    "initial_value": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "step": 0.01
+                                }
+                            },
+                            {
+                                "name": "Transfer (dx,dy,dz)",
+                                "element_type": "vector3",
+                                "contents": {
+                                    "initial_value": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "step": 0.01
+                                }
+                            },
+                            {
+                                "name": "Distance [cm]",
+                                "element_type": "slider",
+                                "contents": {
+                                    "min": 0,
+                                    "max": 50,
+                                    "step": 5,
+                                    "initial_value": 1
+                                }
+                            }
+                        ]
+                    }
+
+                ]
+        }
+    ]
+}

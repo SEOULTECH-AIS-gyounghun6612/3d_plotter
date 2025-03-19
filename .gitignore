@@ -1,0 +1,24 @@
+# ignore option
+# data file and directory
+data/
+*.png
+*.jpg
+*.npy
+*.ply
+*.txt
+
+# tmeporary or test file and directory
+temp.*
+test.*
+test*/
+
+# build file and directory
+dist/
+build/
+
+# vscode option file and directory
+.vscode/
+
+# etc
+*.spec
+*.pyc

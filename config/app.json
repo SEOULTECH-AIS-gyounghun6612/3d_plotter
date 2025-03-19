@@ -1,0 +1,56 @@
+{
+    "title": "Custom 3d view Application",
+    "window_type": "page",
+    "position": [200, 100, 1000, 1000],
+    "interface":{
+        "name": "root_layer", "element_type": "vertical", "size": [1, 1, 1, 1],
+        "event": {}, "is_attribute": false, "arg": {},
+        "style": {},
+        "label": null,
+        "caption": null,
+        "children": [
+            {
+                "name": "3d_plotter",
+                "element_type": "webview",
+                "size": [1, 1, 1, 1],
+                "event": {},
+                "is_attribute": true,
+                "arg": {},
+                "style": {},
+                "label": null,
+                "caption": null,
+                "children": []
+            }
+        ]
+    },
+    "sub_page": {},
+    "data_cfg": {
+        "viser_plotter": {
+            "cfg_file": "./config/viser.json",
+            "host": "127.0.0.1",
+            "port": 8080
+        },
+        "visualize_data_profiles": {
+            "gt_colmap": "E:/연구실/200. 개인 연구/220. 연구 정리/221. 3D_Gaussian/3d gaussian slam/profile/realsense_outside_tree/",
+            "monst3r_3_50_10": "E:/연구실/200. 개인 연구/220. 연구 정리/221. 3D_Gaussian/3d gaussian slam/profile/realsense_outside_tree/",
+            "monst3r_1_50_5": "E:/연구실/200. 개인 연구/220. 연구 정리/221. 3D_Gaussian/3d gaussian slam/profile/realsense_outside_tree/"
+        }
+    },
+    "action": [
+        {
+            "name": "data",
+            "child": [
+                {
+                    "name": "Set Camera",
+                    "child": "Set_camera",
+                    "hotkey": "s",
+                    "with_shift": true,
+                    "icon": null
+                }
+            ],
+            "hotkey": null,
+            "with_shift": false,
+            "icon": null
+        }
+    ]
+}

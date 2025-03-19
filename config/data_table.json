@@ -1,0 +1,193 @@
+{
+    "title": "data_table",
+    "window_type": "popup",
+    "position": null,
+    "data_cfg": {},
+    "interface": {
+        "name": "root_layer", "element_type": "vertical", "size": [1, 1, 1, 1],
+        "event": {},
+        "is_attribute": false,
+        "arg": {},
+        "style": {},
+        "label": null,
+        "caption": null,
+        "children": [
+            {
+                "name": "profile_path_edit_layer",
+                "element_type": "horizontal",
+                "size": [1, 1, 1, 1],
+                "event": {},
+                "is_attribute": false,
+                "arg": {},
+                "style": {},
+                "label": null,
+                "caption": null,
+                "children": [
+                    {
+                        "name": "",
+                        "element_type": "label",
+                        "size": [1, 1, 1, 1],
+                        "event": {},
+                        "is_attribute": false,
+                        "arg": {
+                            "text": "profile path"
+                        },
+                        "style": {},
+                        "label": null,
+                        "caption": null,
+                        "children": []
+                    },
+                    {
+                        "name": "profile_path",
+                        "element_type": "line_edit",
+                        "size": [1, 1, 1, 1],
+                        "event": {},
+                        "is_attribute": false,
+                        "arg": {},
+                        "style": {},
+                        "label": null,
+                        "caption": null,
+                        "children": []
+                    },
+                    {
+                        "name": "profile_path_change",
+                        "element_type": "button",
+                        "size": [1, 1, 1, 1],
+                        "event": {},
+                        "is_attribute": false,
+                        "arg": {
+                            "text": "Set Path"
+                        },
+                        "style": {},
+                        "label": null,
+                        "caption": null,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "data_edit_tab_layer",
+                "element_type": "horizontal",
+                "size": [18, 1, 1, 1],
+                "event": {},
+                "is_attribute": false,
+                "arg": {},
+                "style": {},
+                "label": null,
+                "caption": null,
+                "children": [
+                    {
+                        "name": "plot_data",
+                        "element_type": "editable_tab",
+                        "size": [1, 1, 1, 1],
+                        "event": {},
+                        "is_attribute": true,
+                        "arg": {
+                            "tab_cfg": {
+                                "data_display":{
+                                    "name": "data_display_layer",
+                                    "element_type": "horizontal",
+                                    "size": [1, 1, 1, 1],
+                                    "event": {},
+                                    "is_attribute": false,
+                                    "arg": {},
+                                    "style": {},
+                                    "label": null,
+                                    "caption": null,
+                                    "children": [
+                                        {
+                                            "name": "data_display",
+                                            "element_type": "table",
+                                            "size": [8, 1, 1, 1],
+                                            "event": {},
+                                            "is_attribute": false,
+                                            "arg": {},
+                                            "style": {},
+                                            "label": null,
+                                            "caption": null,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "data_editor_layer",
+                                            "element_type": "vertical",
+                                            "size": [8, 1, 1, 1],
+                                            "event": {},
+                                            "is_attribute": false,
+                                            "arg": {},
+                                            "style": {},
+                                            "label": null,
+                                            "caption": null,
+                                            "children": [
+                                                {
+                                                    "name": "profile_edit_layer",
+                                                    "element_type": "horizontal",
+                                                    "size": [1, 1, 1, 1],
+                                                    "event": {},
+                                                    "is_attribute": false,
+                                                    "arg": {},
+                                                    "style": {},
+                                                    "label": null,
+                                                    "caption": null,
+                                                    "children": [
+                                                        {
+                                                            "name": "",
+                                                            "element_type": "label",
+                                                            "size": [1, 1, 1, 1],
+                                                            "event": {},
+                                                            "is_attribute": false,
+                                                            "arg": {
+                                                                "text": "data file name"
+                                                            },
+                                                            "style": {},
+                                                            "label": null,
+                                                            "caption": null,
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "profile",
+                                                            "element_type": "line_edit",
+                                                            "size": [1, 1, 1, 1],
+                                                            "event": {},
+                                                            "is_attribute": false,
+                                                            "arg": {},
+                                                            "style": {},
+                                                            "label": null,
+                                                            "caption": null,
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "profile_change",
+                                                            "element_type": "button",
+                                                            "size": [1, 1, 1, 1],
+                                                            "event": {},
+                                                            "is_attribute": false,
+                                                            "arg": {
+                                                                "text": "Set Path"
+                                                            },
+                                                            "style": {},
+                                                            "label": null,
+                                                            "caption": null,
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                            
+                        },
+                        "style": {},
+                        "label": null,
+                        "caption": null,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "sub_page": {
+        
+    }
+}
