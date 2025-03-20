@@ -6,6 +6,7 @@ data/
 *.npy
 *.ply
 *.txt
+!requirements.txt
 
 # tmeporary or test file and directory
 temp.*
